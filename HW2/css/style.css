@@ -1,0 +1,105 @@
+body, html{
+    margin: 0px;
+    padding: 0px;  
+    height: 100%;
+}
+
+#photo {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eeeeee;
+}
+  
+nav ul li {
+    float: right;
+}
+  
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 40px;
+}
+  
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.xinsong {
+    float: left;
+    font-family: 'Sora', sans-serif;
+}
+
+.xinsong a:hover {
+    font-weight: 800;
+    background-color: #eeeeee;
+    color: black;
+}
+
+.summary h2 {
+    text-align: center;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact ul {
+    text-align: center;
+}
+
+.contact li {
+    display: inline-block;
+}
+
+.contact li a {
+    text-decoration: none;
+}
+
+.email h2 {
+    text-align: center;
+}
+
+.email a {
+    text-align: center;
+    text-decoration: none;
+    display:block
+}
+
+h1 {
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+}
+
+.about ul {
+    text-align: center;
+}
+
+.about ul li {
+    list-style-type: none;
+}
+
+footer {
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
